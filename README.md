@@ -33,5 +33,5 @@ For step-by-step examples of setting up calculations and running the routines, s
 ## Citation
 If you use this package in your research, please cite:
 
-D. Picconi, Photochem. Photobiol. Sci. 20, 1455–1473 (2021).
+D. Picconi, *Photochem. Photobiol. Sci.* **20**, 1455–1473 (2021).
 https://doi.org/10.1007/s43630-021-00112-z
