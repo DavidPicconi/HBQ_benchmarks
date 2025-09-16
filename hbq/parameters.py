@@ -46,7 +46,9 @@ def load_geometry_data():
     C   = Ueff.T @ np.diag(np.sqrt(w0)) @ U0.T @ np.diag(sqrt_masses)
     Cm1 = np.diag(1 / sqrt_masses) @ U0 @ np.diag(1 / np.sqrt(w0)) @ Ueff
     
-    return n_atoms, geo_S0, mass_tot, masses, TR, C, Cm1, Omega, Ueff, w0
+    return n_atoms, geo_S0, \
+           mass_tot * DALTON_TO_AU, masses * DALTON_TO_AU, \
+           TR, C, Cm1, Omega, Ueff, w0
 
 
 ###############################
